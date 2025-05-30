@@ -18,7 +18,7 @@ I've always wanted a low-cost portable FPGA with video output to make my own CPU
 
 The Icepi Zero aims to fix this. Carrying a powerful ECP5 FPGA on a small Raspberry Pi Zero form factor, it is the ultimate portable solution for FPGA development. Additionally packing a HDMI mini port and 3 USB-C ports, it allows interfacing with multiple external I/O devices.
 
-Icepi Zero is for everyone: Students can use it to learn about the internals of modern processors. Gamers can use it to emulate old hardware. Programmers can use it to test their code on multiple architecturs.
+Icepi Zero is for everyone: Students can use it to learn about the internals of modern processors. Gamers can use it to emulate old hardware. Programmers can use it to test their code on multiple architecture.
 
 Icepi Zero also has an on-board USB to JTAG converter, so no external programmers are needed. Moreover Icepi Zero is fully open-source, no strings attached. Fabricate your own boards if you want one!
 
@@ -52,4 +52,4 @@ Check out the `firmware` folder for example code and compilation instructions!
 
 If there is any questions DM `@Cyao` on Hackclub Slack or `cyao.` on Discord. Mail is also accepted at `cyao _at_ duck.com`.
 
-Thanks Hackclub for sponsering this! Check out [highway & undercity, a hackathon at Github HQ](https://highway.hackclub.com/?ref=recg6V5Pj0JbZghRM)
+Thanks Hackclub for sponsoring this! Check out [highway & undercity, a hackathon at Github HQ](https://highway.hackclub.com/?ref=recg6V5Pj0JbZghRM)
