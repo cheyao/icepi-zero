@@ -23,8 +23,8 @@ Windows cmd.exe    : PATH=[path-to-bin];%PATH%
 Just `cd` into the directories, and type `make`!
 
 - `make install` installs the program to flash
-- `make debug` installs the program to chip (bitstream lost on power loss)
-- `make build` builds the bitstream
+- `make debug` installs the program to chip (bitstream is lost on power loss)
+- `make build` builds the bitstream (bitstream is retained on power loss)
 - `make clean` deletes all the temporary files
 - `make` runs `make debug`
 
