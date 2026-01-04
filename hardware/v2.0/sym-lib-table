@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "icepi-lib")(type "KiCad")(uri "${KIPRJMOD}/libraries/icepi-lib.kicad_sym")(options "")(descr ""))
+  (lib (name "oshw")(type "KiCad")(uri "${KIPRJMOD}/libraries/certification-mark/eda/kicad/OSHW_Certification_Mark.kicad_sym")(options "")(descr ""))
+)

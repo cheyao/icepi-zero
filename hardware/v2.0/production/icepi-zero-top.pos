@@ -1,0 +1,65 @@
+### Footprint positions - created on 2025-09-18T20:33:02+0200 ###
+### Printed by KiCad version 9.0.4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                           Package                                                                PosX       PosY       Rot  Side
+C4        22uF                          C_0603_1608Metric                                                  -20.2500     7.4500  180.0000  top
+C5        22uF                          C_0603_1608Metric                                                  -20.9000     0.1800    0.0000  top
+C6        22uF                          C_0603_1608Metric                                                  -20.9000    -1.3000    0.0000  top
+C17       22uF                          C_0603_1608Metric                                                  -15.2650     3.9800  180.0000  top
+C18       22uF                          C_0603_1608Metric                                                  -15.7300    -1.6000    0.0000  top
+C23       22uF                          C_0603_1608Metric                                                  -18.0300     3.7750  -90.0000  top
+C24       10uF                          C_0603_1608Metric                                                  -18.0350     6.7300  -90.0000  top
+C29       22nF                          C_0402_1005Metric                                                  -16.5000    -7.6000  180.0000  top
+C30       22nF                          C_0402_1005Metric                                                  -16.5000    -6.6800  180.0000  top
+C31       22nF                          C_0402_1005Metric                                                  -18.4300    -6.2500  -90.0000  top
+C32       22nF                          C_0402_1005Metric                                                  -19.3500    -6.2500  -90.0000  top
+C33       22nF                          C_0402_1005Metric                                                  -20.2700    -6.2500  -90.0000  top
+C34       22nF                          C_0402_1005Metric                                                  -21.1900    -6.2500  -90.0000  top
+C35       22nF                          C_0402_1005Metric                                                  -22.1100    -6.2500  -90.0000  top
+C36       22nF                          C_0402_1005Metric                                                  -23.0300    -6.2500  -90.0000  top
+C44       22nF                          C_0603_1608Metric                                                   19.1000     7.4900    0.0000  top
+D1        WHITE                         LED_0603_1608Metric                                                 16.4175    -7.4900    0.0000  top
+D2        WHITE                         LED_0603_1608Metric                                                 22.3600    -7.4900    0.0000  top
+D3        WHITE                         LED_0603_1608Metric                                                 25.3600    -7.4900    0.0000  top
+D4        WHITE                         LED_0603_1608Metric                                                 19.3725    -7.5100    0.0000  top
+D5        WHITE                         LED_0603_1608Metric                                                 28.3500    -7.5000    0.0000  top
+D8        RED                           LED_0603_1608Metric                                                -13.7375    -8.3800    0.0000  top
+J1        Conn_02x20_Counter_Clockwise  PinHeader_2x20_P2.54mm_Vertical                                    -25.6250     9.9750   90.0000  top
+J2        GPDI_C_1.3                    XKB_Connection_A71-05H4-111N1                                      -21.6000    -9.6000    0.0000  top
+J3        USB_C_Receptacle_USB2.0_14P   USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal             -6.0000   -13.0000    0.0000  top
+J4        USB_C_Receptacle_USB2.0_14P   USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal             19.0000   -13.0000    0.0000  top
+J5        USB_C_Receptacle_USB2.0_14P   USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal              6.5000   -13.0000    0.0000  top
+J6        Micro_SD_Card_Det2            microSD_HC_SOFNG_TF-008                                            -31.4800     2.2000  -90.0000  top
+L1        2.2uH_100mA+_400mO-           L_0805_2012Metric                                                  -20.6700     1.7700  180.0000  top
+L2        2.2uH_100mA+_400mO-           L_0805_2012Metric                                                  -18.0600     0.5500  -90.0000  top
+L3        2.2uH_100mA+_400mO-           L_0805_2012Metric                                                  -16.4550     6.4600   90.0000  top
+R12       470                           R_0402_1005Metric                                                  -23.9600    -6.2500   90.0000  top
+R13       10k                           R_0402_1005Metric                                                  -25.1750    -6.2500   90.0000  top
+R14       470                           R_0402_1005Metric                                                  -26.1250    -6.2500   90.0000  top
+R15       100k                          R_0402_1005Metric                                                  -28.3600    -4.4900  180.0000  top
+R16       4.7k                          R_0402_1005Metric                                                  -28.9600    -7.9500  180.0000  top
+R17       4.7k                          R_0402_1005Metric                                                  -27.1000    -7.9500    0.0000  top
+R18       3.3k                          R_0402_1005Metric                                                  -32.7500    -7.6500    0.0000  top
+R19       3.3k                          R_0402_1005Metric                                                  -32.7500    -6.6900    0.0000  top
+R26       1k                            R_0402_1005Metric                                                   12.7500    -9.8850    0.0000  top
+R27       15k                           R_0402_1005Metric                                                   12.7500   -10.8250    0.0000  top
+R28       1k                            R_0402_1005Metric                                                  -11.7900    -8.4000   90.0000  top
+R30       27                            R_0201_0603Metric                                                    0.4750   -12.5750    0.0000  top
+R33       27                            R_0201_0603Metric                                                    0.4750   -13.2750    0.0000  top
+R35       1k                            R_0402_1005Metric                                                   12.7500   -13.3800    0.0000  top
+R38       27                            R_0201_0603Metric                                                    0.8300    -9.9400  -90.0000  top
+R39       15k                           R_0402_1005Metric                                                   12.7500   -14.3250    0.0000  top
+R40       27                            R_0201_0603Metric                                                    0.1300    -9.9400  -90.0000  top
+U1        ECP5-CABGA256                 BGA-256_14.0x14.0mm_Layout16x16_P0.8mm_Ball0.45mm_Pad0.32mm_NSMD     0.0000     0.0000  -90.0000  top
+U2        TLV62569DBV                   SOT-23-5                                                           -20.4600     4.6625   90.0000  top
+U3        TLV62569DBV                   SOT-23-5                                                           -15.5100     1.1825  -90.0000  top
+U4        TLV62569DBV                   SOT-23-5                                                           -13.5600     6.5075    0.0000  top
+U5        PCA9306DC1                    VSSOP-8_2.3x2mm_P0.5mm                                             -29.5000    -6.2250    0.0000  top
+U6        FT231XQ                       QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm                                -13.3200   -11.9300   90.0000  top
+U8        TPD2EUSB30A                   Texas_DRT-3                                                         12.7500   -12.1000   90.0000  top
+U9        TPD2EUSB30A                   Texas_DRT-3                                                          0.4675   -11.4325   90.0000  top
+U10       W9825G6KH                     TSOP-II-54_22.2x10.16mm_P0.8mm                                      19.5000     0.0000   90.0000  top
+U11       W25Q128JVS                    SOIC-8_5.3x5.3mm_P1.27mm                                           -10.9100     0.1500  -90.0000  top
+Y1        SG-8018CG_50.000000MHz        Oscillator_SMD_SiT_PQFN-4Pin_2.5x2.0mm                              -9.7500     6.7000    0.0000  top
+## End

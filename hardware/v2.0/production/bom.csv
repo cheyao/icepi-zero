@@ -1,0 +1,33 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C11, C12, C13, C14, C15, C16, C19, C21, C22, C25, C27, C28, C3, C38, C46, C48, C50, C51, C52, C7",0402,21,100nF,https://www.lcsc.com/product-detail/C307331.html
+"C10, C2, C20, C24, C26, C42, C45, C47, C49, C8, C9",0603,11,10uF,https://www.lcsc.com/product-detail/C19702.html
+"C17, C18, C23, C37, C4, C5, C6",0603,7,22uF,https://www.lcsc.com/product-detail/C59461.html
+"C29, C30, C31, C32, C33, C34, C35, C36",0402,8,22nF,https://www.lcsc.com/product-detail/C1532.html
+"C39, C40, C41, C43, C44, C53, C54",0603,7,22nF,https://www.lcsc.com/product-detail/C77571.html
+"D1, D2, D3, D4, D5",0603,5,WHITE,https://www.lcsc.com/product-detail/C2290.html
+"D10, D11, D12, D13, D14, D6, D7, D9",D_SOD-523,8,1N914WT,https://www.lcsc.com/product-detail/C2836064.html
+D8,0603,1,RED,https://www.lcsc.com/product-detail/C2286.html
+FB1,0805,1,100R@100MHz,https://www.lcsc.com/product-detail/C74480.html
+J2,XKB Connection A71-05H4-111N1,1,GPDI_C_1.3,https://www.lcsc.com/product-detail/C2682170.html
+"J3, J4, J5",USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,3,USB_C_Receptacle_USB2.0_14P,https://www.lcsc.com/product-detail/C2765186.html
+J6,microSD_HC_SOFNG_TF-008,1,Micro_SD_Card_Det2,https://www.lcsc.com/product-detail/C428465.html
+"L1, L2, L3",0805,3,2.2uH 100mA+ 400mO-,https://www.lcsc.com/product-detail/C107322.html
+"R1, R12, R14, R2, R3, R4, R5",0402,7,470,https://www.lcsc.com/product-detail/C25117.html
+"R10, R27, R34, R39, R42, R48, R49, R50, R8",0402,9,15k,https://www.lcsc.com/product-detail/C25756.html
+"R11, R18, R19",0402,3,3.3k,https://www.lcsc.com/product-detail/C25890.html
+"R13, R44, R45, R46, R47, R6",0402,6,10k,https://www.lcsc.com/product-detail/C25744.html
+R15,0402,1,100k,https://www.lcsc.com/product-detail/C25741.html
+"R16, R17, R20, R21, R22, R23, R43, R9",0402,8,4.7k,https://www.lcsc.com/product-detail/C25900.html
+"R24, R25, R29, R31, R36, R37",0402,6,5.1k,https://www.lcsc.com/product-detail/C25905.html
+"R26, R28, R32, R35, R41",0402,5,1k,https://www.lcsc.com/product-detail/C11702.html
+"R30, R33, R38, R40",0201,4,27,https://www.lcsc.com/product-detail/C473051.html
+R7,0402,1,12k,https://www.lcsc.com/product-detail/C25752.html
+"SW1, SW2",switch_button_TS-1088-AR02016,2,SW_Push,https://www.lcsc.com/product-detail/C720477.html
+U1,BGA-256_14.0x14.0mm_Layout16x16_P0.8mm_Ball0.45mm_Pad0.32mm_NSMD,1,ECP5-CABGA256,https://www.lcsc.com/product-detail/C1521614.html
+U10,TSOP-II-54_22.2x10.16mm_P0.8mm,1,W9825G6KH,https://www.lcsc.com/product-detail/C62246.html
+U11,SOIC-8_5.3x5.3mm_P1.27mm,1,W25Q128JVS,https://www.lcsc.com/product-detail/C97521.html
+"U12, U7, U8, U9",Texas_DRT-3,4,TPD2EUSB30A,https://www.lcsc.com/product-detail/C3011197.html
+"U2, U3, U4",SOT-23-5,3,TLV62569DBV,https://www.lcsc.com/product-detail/C141836.html
+U5,VSSOP-8_2.3x2mm_P0.5mm,1,PCA9306DC1,https://www.lcsc.com/product-detail/C129510.html
+U6,QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm,1,FT231XQ,https://www.lcsc.com/product-detail/C132159.html
+Y1,Oscillator_SMD_SiT_PQFN-4Pin_2.5x2.0mm,1,SG-8018CG 50.000000MHz,https://www.lcsc.com/product-detail/C390526.html
