@@ -6401,12 +6401,6 @@
 		(uuid "47cecd4a-a824-4714-9aeb-5ce825a2375b")
 	)
 	(junction
-		(at 264.16 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f018176-12cc-4c50-b930-36aff0c9181f")
-	)
-	(junction
 		(at 53.34 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6459,12 +6453,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c278b419-def0-4dd9-be8b-090e9d1b772d")
-	)
-	(junction
-		(at 264.16 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c346724d-8557-42bc-85a6-a86012f94d3c")
 	)
 	(junction
 		(at 218.44 39.37)
@@ -7206,16 +7194,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 39.37) (xy 275.59 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fae0a16-bb13-453a-9dee-19f7a87b121a")
-	)
-	(wire
-		(pts
 			(xy 54.61 125.73) (xy 60.96 125.73)
 		)
 		(stroke
@@ -7466,16 +7444,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 46.99) (xy 275.59 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2db3a0d4-90c8-4489-b56b-cd4ddedcc45e")
-	)
-	(wire
-		(pts
 			(xy 194.31 39.37) (xy 194.31 40.64)
 		)
 		(stroke
@@ -7493,16 +7461,6 @@
 			(type default)
 		)
 		(uuid "2ecc55ea-ecd8-4f60-9d78-a1e784c288b7")
-	)
-	(wire
-		(pts
-			(xy 275.59 39.37) (xy 275.59 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31473ac7-55c2-42fe-ade2-5201ef28b382")
 	)
 	(wire
 		(pts
@@ -7693,16 +7651,6 @@
 			(type default)
 		)
 		(uuid "516184b2-1f45-4ecc-902e-1984619a9856")
-	)
-	(wire
-		(pts
-			(xy 264.16 46.99) (xy 275.59 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51adbeac-e2ef-4c36-b441-e2899eb58d05")
 	)
 	(bus
 		(pts
@@ -11979,122 +11927,6 @@
 				(path "/f88da08e-cf42-4d03-a08f-3f602fe6658d/3bffbb9a-e009-498c-a1b0-c490cdf30139"
 					(reference "U1")
 					(unit 6)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 275.59 43.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6a542b0-58f3-47bd-85f4-6bd3016967a2")
-		(property "Reference" "C55"
-			(at 278.13 41.9162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22nF"
-			(at 278.13 44.4562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 275.59 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 275.59 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C77571"
-			(at 275.59 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Link" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
-			(at 275.59 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer Part Number" "0603B223K500NT"
-			(at 275.59 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 275.59 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 275.59 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64083740-6bd6-4c67-89af-3142ff28fbda")
-		)
-		(pin "2"
-			(uuid "0e951fa2-d03b-441c-8d6e-4f4e61273ca0")
-		)
-		(instances
-			(project "icepi-zero"
-				(path "/f88da08e-cf42-4d03-a08f-3f602fe6658d/3bffbb9a-e009-498c-a1b0-c490cdf30139"
-					(reference "C55")
-					(unit 1)
 				)
 			)
 		)
