@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Icepi Zero")
-		(date "2025-10-10")
-		(rev "v1.3")
-		(company "Chengyin Yao (cheyao)")
+		(date "2026-01-05")
+		(rev "v2.0")
+		(company "Chengyin Yao (cheyao), Vadym Vikulin")
 		(comment 1 "https://github.com/cheyao/icepi-zero")
 		(comment 2 "License: Solderpad")
 	)
