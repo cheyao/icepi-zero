@@ -2502,6 +2502,17 @@
 			(uuid "a0ed1f8c-a0ef-4fef-b808-5ddf289254df")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/libraries/icepi-lib.petty/TS-1088-AR02016/TS-1088-AR02016--3DModel-STEP-269445.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")
@@ -6193,6 +6204,17 @@
 			(uuid "2d144e97-af9a-4460-9039-940a1176644b")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/libraries/icepi-lib.petty/TS-1088-AR02016/TS-1088-AR02016--3DModel-STEP-269445.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
