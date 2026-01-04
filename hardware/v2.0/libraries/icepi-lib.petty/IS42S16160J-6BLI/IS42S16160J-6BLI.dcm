@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IS42S16160J-6BLI
+D DRAM 256M, 3.3V, SDRAM, 16Mx16, 166Mhz, 54 ball BGA (8mmx8mm) RoHS, IT
+K
+F http://www.issi.com/WW/pdf/42-45S83200J-16160J.pdf
+$ENDCMP
+#
+#End Doc Library

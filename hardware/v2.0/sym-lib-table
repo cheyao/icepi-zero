@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "icepi-lib")(type "KiCad")(uri "${KIPRJMOD}/libraries/icepi-lib.kicad_sym")(options "")(descr ""))
   (lib (name "oshw")(type "KiCad")(uri "${KIPRJMOD}/libraries/certification-mark/eda/kicad/OSHW_Certification_Mark.kicad_sym")(options "")(descr ""))
+  (lib (name "IS42S16160J-6BLI")(type "KiCad")(uri "${KIPRJMOD}/libraries/icepi-lib.petty/IS42S16160J-6BLI/IS42S16160J-6BLI.kicad_sym")(options "")(descr ""))
 )
