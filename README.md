@@ -44,7 +44,7 @@ Moreover Icepi Zero is fully open-source, no strings attached. Learn from the de
 - 50MHz external oscillator
 - 128 Mbit of flash
 - 4 user LEDs
-- 1 user button
+- 2 user buttons
 
 This powerful configuration allows the PCB to be used in numerous ways, including real time video processing, hardware AI acceleration and prototyping of ASICs. 
 
