@@ -70,7 +70,7 @@ It is also supported by icestudio (custom fork: https://github.com/cheyao/icestu
 
 ## Usage
 
-Check out the `firmware` folder for example code and compilation instructions!
+Check out the `gateware` folder for example code and compilation instructions!
 
 If you want to order this board, it uses a 1.2mm/1.6mm PCB with JLC04121H-7628 Stackup. Gerbers are in the `production` folder in the `hardware` directory.
 

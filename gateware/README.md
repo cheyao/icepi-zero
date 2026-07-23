@@ -67,6 +67,10 @@ Just copy the `icepi-zero.lpf` and `Makefile` to the root of your directory, cal
 ---
 > An example bitstream file exists in the [documentation](../documentation/) folder.
 
+There are two ways of using openFPGALoader to flash the board. The first one is via the command line, second via webusb on a browser.
+
+#### Command Line
+
 The following command is used to flash the development board
 
 ```zsh
@@ -77,9 +81,15 @@ You can also add the `--write-flash` flag to permanantly write the bitstream to 
 
 Note: If you use the newest version of openFPGALoader, it supports the `-b icepi-zero` flag that can replace `-cft231X --pins=7:3:5:6`.
 
-Alternatively, you can use the web version of openFPGALoader on Google Chrome: [https://ofl.trabucayre.com/](https://ofl.trabucayre.com/).
+#### Browser
 
-Select "Default" as the cable and "icepi-zero" as the board, upload your .bit file and press Program.
+Alternatively, you can use the web version of openFPGALoader on Chrome: [https://ofl.trabucayre.com/](https://ofl.trabucayre.com/). (It won't work on Firefox as webusb is only supported by Chrome)
+
+If you are on Windows, you must first install [Zadig](https://zadig.akeo.ie/), and change the USB driver for the FTDI chip to WinUSB: (Not needed on Linux)
+
+<img src="../gallery/usb-driver.png" width="80%" />
+
+Then, open the webpage and select "Default" as the cable and "icepi-zero" as the board, upload your .bit file and press Program.
 
 <img src="../gallery/openfpgaloader-web.png" width="80%" />
 
