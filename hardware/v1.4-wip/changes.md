@@ -1,0 +1,4 @@
+- Add GPIO toggle for `PROGRAMN`
+- Improve EMI & grounding
+- Slightly improve SDRAM length matching
+- Tidy up silkscreen
