@@ -7,7 +7,7 @@
 	(title_block
 		(title "Icepi Zero")
 		(date "2025-10-10")
-		(rev "v1.3")
+		(rev "v1.4")
 		(company "Chengyin Yao (cheyao)")
 		(comment 1 "https://github.com/cheyao/icepi-zero")
 		(comment 2 "License: Solderpad")
@@ -11585,7 +11585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:Texas_DRT-3"
+		(property "Footprint" "icepi-lib:Texas_DRT-3"
 			(at 167.64 144.78 0)
 			(hide yes)
 			(show_name no)

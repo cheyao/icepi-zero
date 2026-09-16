@@ -7,7 +7,7 @@
 	(title_block
 		(title "Icepi Zero")
 		(date "2025-10-10")
-		(rev "v1.3")
+		(rev "v1.4")
 		(company "Chengyin Yao (cheyao)")
 		(comment 1 "https://github.com/cheyao/icepi-zero")
 		(comment 2 "License: Solderpad")

@@ -7,7 +7,7 @@
 	(title_block
 		(title "Icepi Zero")
 		(date "2025-10-10")
-		(rev "v1.3")
+		(rev "v1.4")
 		(company "Chengyin Yao (cheyao)")
 		(comment 1 "https://github.com/cheyao/icepi-zero")
 		(comment 2 "License: Solderpad")
@@ -10214,7 +10214,6 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 218.44 43.18 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10223,7 +10222,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "144bc1b5-19b0-4094-9f58-a8eae7807354")
+		(uuid "0e09e758-a1fb-467b-ada4-a14dd1beeb14")
 		(property "Reference" "C49"
 			(at 220.98 41.9162 0)
 			(show_name no)
@@ -10232,10 +10231,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "22nF"
+		(property "Value" "100nF"
 			(at 220.98 44.4562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10243,10 +10242,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 218.44 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10279,7 +10278,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C77571"
+		(property "LCSC Part #" "C307331"
 			(at 218.44 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10301,7 +10300,7 @@
 				)
 			)
 		)
-		(property "Manufactuer Part Number" "0603B223K500NT"
+		(property "Manufactuer Part Number" "CL05B104KB54PNC"
 			(at 218.44 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10346,462 +10345,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6aba3e6-88d0-4213-991f-ec0bca16ab2d")
+			(uuid "4dfc8f46-10f3-402f-9f63-0f7416ac1e76")
 		)
 		(pin "2"
-			(uuid "cc7300c9-fdf0-409a-b615-8e250afb0a32")
+			(uuid "8bee4079-5de3-4c44-b8b9-f5d6f881c6a7")
 		)
 		(instances
 			(project "icepi-zero"
 				(path "/f88da08e-cf42-4d03-a08f-3f602fe6658d/3bffbb9a-e009-498c-a1b0-c490cdf30139"
 					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 194.31 43.18 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "332d777b-1a2c-4e50-bd81-dcc507ecf323")
-		(property "Reference" "C47"
-			(at 196.85 41.9162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22nF"
-			(at 196.85 44.4562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 194.31 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 194.31 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C77571"
-			(at 194.31 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Link" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
-			(at 194.31 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufactuer Part Number" "0603B223K500NT"
-			(at 194.31 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Note" ""
-			(at 194.31 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 194.31 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Original" ""
-			(at 194.31 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ff35cea-396a-4c49-9df5-bbda91b009e1")
-		)
-		(pin "2"
-			(uuid "64aa98d0-a4ff-49d2-9fdc-2d563e01e865")
-		)
-		(instances
-			(project "icepi-zero"
-				(path "/f88da08e-cf42-4d03-a08f-3f602fe6658d/3bffbb9a-e009-498c-a1b0-c490cdf30139"
-					(reference "C47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 207.01 43.18 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56a2e96d-05f8-4ed4-bc02-6446b81e91e0")
-		(property "Reference" "C48"
-			(at 209.55 41.9162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22nF"
-			(at 209.55 44.4562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 207.01 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 207.01 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C77571"
-			(at 207.01 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Link" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
-			(at 207.01 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufactuer Part Number" "0603B223K500NT"
-			(at 207.01 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Note" ""
-			(at 207.01 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 207.01 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Original" ""
-			(at 207.01 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "61ba0814-b242-401e-b944-3356f615b650")
-		)
-		(pin "2"
-			(uuid "7a65ddb9-71c3-4dde-a47e-c61a3c42749b")
-		)
-		(instances
-			(project "icepi-zero"
-				(path "/f88da08e-cf42-4d03-a08f-3f602fe6658d/3bffbb9a-e009-498c-a1b0-c490cdf30139"
-					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 181.61 43.18 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5aa39693-9e53-42c7-b11b-b25d0170e3e4")
-		(property "Reference" "C46"
-			(at 184.15 41.9162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22nF"
-			(at 184.15 44.4562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 181.61 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 181.61 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C77571"
-			(at 181.61 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Link" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
-			(at 181.61 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufactuer Part Number" "0603B223K500NT"
-			(at 181.61 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Note" ""
-			(at 181.61 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 181.61 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Original" ""
-			(at 181.61 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed836fd2-780a-4163-bf13-070cc2a99f08")
-		)
-		(pin "2"
-			(uuid "3c114923-5ba0-4451-93f0-bdce8fced167")
-		)
-		(instances
-			(project "icepi-zero"
-				(path "/f88da08e-cf42-4d03-a08f-3f602fe6658d/3bffbb9a-e009-498c-a1b0-c490cdf30139"
-					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -11113,6 +10665,154 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 181.61 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "671d3338-7f17-4e43-aea7-0c31c271d5cb")
+		(property "Reference" "C46"
+			(at 184.15 41.9162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 184.15 44.4562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C307331"
+			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Link" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
+			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufactuer Part Number" "CL05B104KB54PNC"
+			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Original" ""
+			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0dc06e33-3f41-4f7c-ae69-21d5de402048")
+		)
+		(pin "2"
+			(uuid "e885c18d-bf30-4d2d-b1c3-5ae139103139")
+		)
+		(instances
+			(project "icepi-zero"
+				(path "/f88da08e-cf42-4d03-a08f-3f602fe6658d/3bffbb9a-e009-498c-a1b0-c490cdf30139"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 173.99 137.16 0)
 		(unit 1)
@@ -11192,8 +10892,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 229.87 43.18 0)
-		(mirror y)
+		(at 207.01 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11202,31 +10901,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7ec3a675-12f1-44f9-b8f7-afa7d16b56f0")
-		(property "Reference" "C50"
-			(at 232.41 41.9162 0)
+		(uuid "7c591584-0f5d-43cd-a237-c39b4f8bdcff")
+		(property "Reference" "C48"
+			(at 209.55 41.9162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "22nF"
-			(at 232.41 44.4562 0)
+		(property "Value" "100nF"
+			(at 209.55 44.4562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 229.87 43.18 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 207.01 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11237,7 +10936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 43.18 0)
+			(at 207.01 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11248,7 +10947,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 229.87 43.18 0)
+			(at 207.01 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11258,8 +10957,8 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C77571"
-			(at 229.87 43.18 0)
+		(property "LCSC Part #" "C307331"
+			(at 207.01 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11270,7 +10969,7 @@
 			)
 		)
 		(property "LCSC Link" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
-			(at 229.87 43.18 0)
+			(at 207.01 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11280,8 +10979,8 @@
 				)
 			)
 		)
-		(property "Manufactuer Part Number" "0603B223K500NT"
-			(at 229.87 43.18 0)
+		(property "Manufactuer Part Number" "CL05B104KB54PNC"
+			(at 207.01 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11292,7 +10991,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 229.87 43.18 0)
+			(at 207.01 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11303,7 +11002,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 229.87 43.18 0)
+			(at 207.01 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11314,7 +11013,7 @@
 			)
 		)
 		(property "Original" ""
-			(at 229.87 43.18 0)
+			(at 207.01 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11325,15 +11024,163 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8ea95d1-32a3-49c5-8071-8c4a45ea02a6")
+			(uuid "0fa8c862-0a8a-4da1-bd9c-8401d8d83b71")
 		)
 		(pin "2"
-			(uuid "2ff1fbf6-9261-4297-9e35-022d5772d553")
+			(uuid "c0c4d7f9-7570-4946-8f56-46bb0c62cfff")
 		)
 		(instances
 			(project "icepi-zero"
 				(path "/f88da08e-cf42-4d03-a08f-3f602fe6658d/3bffbb9a-e009-498c-a1b0-c490cdf30139"
-					(reference "C50")
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 194.31 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8180b05f-f7d9-4a6a-8d0e-d012543b4fd2")
+		(property "Reference" "C47"
+			(at 196.85 41.9162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 196.85 44.4562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 194.31 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 194.31 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C307331"
+			(at 194.31 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Link" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
+			(at 194.31 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufactuer Part Number" "CL05B104KB54PNC"
+			(at 194.31 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 194.31 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 194.31 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Original" ""
+			(at 194.31 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ba565e3-c3e4-40e8-bf73-0541df89de53")
+		)
+		(pin "2"
+			(uuid "0f76b998-2293-48ba-b4ca-a9dab00ae239")
+		)
+		(instances
+			(project "icepi-zero"
+				(path "/f88da08e-cf42-4d03-a08f-3f602fe6658d/3bffbb9a-e009-498c-a1b0-c490cdf30139"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -11363,7 +11210,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22nF"
+		(property "Value" "10uF"
 			(at 243.84 44.4562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11407,7 +11254,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C77571"
+		(property "LCSC Part #" "C19702"
 			(at 241.3 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11429,7 +11276,7 @@
 				)
 			)
 		)
-		(property "Manufactuer Part Number" "0603B223K500NT"
+		(property "Manufactuer Part Number" "CL10A106KP8NNNC"
 			(at 241.3 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11512,7 +11359,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22nF"
+		(property "Value" "10uF"
 			(at 255.27 44.4562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11556,7 +11403,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C77571"
+		(property "LCSC Part #" "C19702"
 			(at 252.73 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11578,7 +11425,7 @@
 				)
 			)
 		)
-		(property "Manufactuer Part Number" "0603B223K500NT"
+		(property "Manufactuer Part Number" "CL10A106KP8NNNC"
 			(at 252.73 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12542,6 +12389,154 @@
 				(path "/f88da08e-cf42-4d03-a08f-3f602fe6658d/3bffbb9a-e009-498c-a1b0-c490cdf30139"
 					(reference "U1")
 					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 229.87 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da7dd60c-9875-4369-bb0d-c72b851b2f7d")
+		(property "Reference" "C50"
+			(at 232.41 41.9162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 232.41 44.4562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 229.87 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 229.87 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C307331"
+			(at 229.87 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Link" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
+			(at 229.87 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufactuer Part Number" "CL05B104KB54PNC"
+			(at 229.87 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 229.87 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 229.87 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Original" ""
+			(at 229.87 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "faecb61c-b4de-4ee3-8b41-628ebf3a1e8f")
+		)
+		(pin "2"
+			(uuid "4e1ffd20-d05b-441a-939f-27ae8f54f1c8")
+		)
+		(instances
+			(project "icepi-zero"
+				(path "/f88da08e-cf42-4d03-a08f-3f602fe6658d/3bffbb9a-e009-498c-a1b0-c490cdf30139"
+					(reference "C50")
+					(unit 1)
 				)
 			)
 		)

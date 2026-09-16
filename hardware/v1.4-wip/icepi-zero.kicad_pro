@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
-          "min_thickness": 0.15,
-          "pad_connection": 3,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -157,7 +157,7 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_connection": 0.15,
+        "min_connection": 0.125,
         "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -284,7 +284,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v1.3"
+      "sch_revision": "v1.4"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -540,7 +540,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.14,
+        "clearance": 0.13,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -587,7 +587,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "production/${PROJECTNAME}.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -786,7 +786,7 @@
         "uuid": "f88da08e-cf42-4d03-a08f-3f602fe6658d"
       }
     ],
-    "used_designators": "R51",
+    "used_designators": "C46-50,R51",
     "variants": []
   },
   "sheets": [

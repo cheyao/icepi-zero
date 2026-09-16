@@ -7,7 +7,7 @@
 	(title_block
 		(title "Icepi Zero")
 		(date "2025-10-10")
-		(rev "v1.3")
+		(rev "v1.4")
 		(company "Chengyin Yao (cheyao)")
 		(comment 1 "https://github.com/cheyao/icepi-zero")
 		(comment 2 "License: Solderpad")
@@ -10840,7 +10840,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.1k"
 			(at 33.02 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10883,7 +10883,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C11702"
+		(property "LCSC Part #" "C140223"
 			(at 33.02 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -11065,7 +11065,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.1k"
 			(at 33.02 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11108,7 +11108,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C11702"
+		(property "LCSC Part #" "C140223"
 			(at 33.02 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -11290,7 +11290,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.1k"
 			(at 33.02 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11333,7 +11333,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C11702"
+		(property "LCSC Part #" "C140223"
 			(at 33.02 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12914,7 +12914,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.1k"
 			(at 33.02 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12957,7 +12957,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C11702"
+		(property "LCSC Part #" "C140223"
 			(at 33.02 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -13193,7 +13193,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.1k"
 			(at 33.02 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13236,7 +13236,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C11702"
+		(property "LCSC Part #" "C140223"
 			(at 33.02 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -14601,7 +14601,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7848fadd-b84e-48e6-876a-55cbbc829fdb")
@@ -14627,7 +14627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oshw:OSHW-Certification-Mark-Logo_6x3mm_SilkScreen"
+		(property "Footprint" "PCM_ckl-misc:Icy Electronics Logo"
 			(at 24.13 20.32 0)
 			(hide yes)
 			(show_name no)

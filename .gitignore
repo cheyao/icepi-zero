@@ -1,6 +1,7 @@
 .DS_Store
 00Contents
 !documentation/fire-v.bit
+*.xlsx
 *.dtx
 *.ins
 *.upl

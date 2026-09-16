@@ -2,3 +2,6 @@
 - Improve EMI & grounding
 - Slightly improve SDRAM length matching
 - Tidy up silkscreen
+- 1k LED resistors -> 1.1k
+- Change 24nF decoupling capacitors for sdram to 100nF or 10uF
+- Change TPD2EUSB30's footprint to be easier for soldering

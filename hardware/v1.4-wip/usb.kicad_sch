@@ -7,7 +7,7 @@
 	(title_block
 		(title "Icepi Zero")
 		(date "2025-10-10")
-		(rev "v1.3")
+		(rev "v1.4")
 		(company "Chengyin Yao (cheyao)")
 		(comment 1 "https://github.com/cheyao/icepi-zero")
 		(comment 2 "License: Solderpad")
@@ -11461,7 +11461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:Texas_DRT-3"
+		(property "Footprint" "icepi-lib:Texas_DRT-3"
 			(at 48.26 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -11678,7 +11678,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.1k"
 			(at 223.52 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11721,7 +11721,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C11702"
+		(property "LCSC Part #" "C140223"
 			(at 223.52 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -13678,7 +13678,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.1k"
 			(at 101.6 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13721,7 +13721,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C11702"
+		(property "LCSC Part #" "C140223"
 			(at 101.6 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -14965,7 +14965,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.1k"
 			(at 105.41 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15008,7 +15008,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C11702"
+		(property "LCSC Part #" "C140223"
 			(at 105.41 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -15326,7 +15326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:Texas_DRT-3"
+		(property "Footprint" "icepi-lib:Texas_DRT-3"
 			(at 96.52 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -18128,7 +18128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:Texas_DRT-3"
+		(property "Footprint" "icepi-lib:Texas_DRT-3"
 			(at 231.14 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -19954,7 +19954,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.1k"
 			(at 101.6 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19997,7 +19997,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C11702"
+		(property "LCSC Part #" "C140223"
 			(at 101.6 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -21009,7 +21009,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.1k"
 			(at 223.52 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21052,7 +21052,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C11702"
+		(property "LCSC Part #" "C140223"
 			(at 223.52 77.47 0)
 			(hide yes)
 			(show_name no)
