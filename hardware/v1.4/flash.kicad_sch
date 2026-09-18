@@ -7210,7 +7210,7 @@
 				)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "4.7k"
 			(at 66.04 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7264,7 +7264,7 @@
 				)
 			)
 		)
-		(property "LCSC Link" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-0402WGF1502TCE_C25756.html"
+		(property "LCSC Link" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-0402WGF4701TCE_C25900.html"
 			(at 66.04 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -7275,7 +7275,7 @@
 				)
 			)
 		)
-		(property "Manufactuer Part Number" "0402WGF1502TCE"
+		(property "Manufactuer Part Number" "0402WGF4701TCE"
 			(at 66.04 64.77 90)
 			(hide yes)
 			(show_name no)
