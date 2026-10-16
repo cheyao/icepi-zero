@@ -2,8 +2,8 @@
 
 ![](gallery/icepi-in-hand.png)
 
-| Get your own on: | [**Crowd Supply**](https://www.crowdsupply.com/icy-electronics/icepi-zero) | [**Elecrow**](https://www.elecrow.com/icepi-zero.html) |
-| ---------------- | ------------------------ | ------------------ |
+| Get your own at: | [**Crowd Supply**](https://www.crowdsupply.com/icy-electronics/icepi-zero) | [**Elecrow**](https://www.elecrow.com/icepi-zero.html) | [**Mouser Electronics**](https://eu.mouser.com/en/ProductDetail/Icy-Electronics/ICEPI-ZERO-QTY-1) |
+| ---------------- | ------------------------ | ------------------ | --------- |
 
 If you are a student/educational institute, send me an email at `cyao _at_ duck.com` and I'll give an educational discount of $65!
 
