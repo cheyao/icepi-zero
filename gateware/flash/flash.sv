@@ -9,7 +9,7 @@ module top (
 
     input [1:0] button,
 
-    output uart_tx
+    output usb_tx
 );
     assign resetn = button[0];
     assign flash_csn = 0;
