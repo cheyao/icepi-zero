@@ -38,7 +38,7 @@ module top (
 
     // LED Output / PWM Dimming
     always_ff @(negedge clk) begin
-      if ((clkb[3:1] != 3'b111) && (b1)) // use same clock counter for PWM
+      if ((clkb[3:2] != 2'b11) && (b1)) // use same clock counter for PWM
         led <= 0;
       else
         led <= clkb[28:24];  // simpler way to decimate clock counter using MSBs
