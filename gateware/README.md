@@ -143,5 +143,9 @@ And here are some retro ports:
 - [Apple 1 Emulator](https://github.com/alangarf/apple-one)
 - [Sega Master System](https://github.com/cheyao/sega-sms)
 - [Port of Silice](https://github.com/sylefeb/Silice/) (Check out the projects folder - it's full of interesting programs)
-- [NES](https://github.com/m1nl/icepi-zero-nes/) implemented by [@m1nl](https://github.com/m1nl)
+- [NES](https://github.com/m1nl/icepi-zero-nes) implemented by [@m1nl](https://github.com/m1nl)
+- [SNES](https://github.com/m1nl/snestang) (incl. DSPn and SuperFX chip support)
+- [Amiga (Minimig AGA)](https://github.com/m1nl/icepi-zero-minimig) (incl. high-resolution RTG support)
+- [Sega Master System (SMS)](https://github.com/danodus/ulx3s_sms)
+- [VZ-200/VZ-300/LASER 210/LASER 310](https://github.com/rouseabout/vzf)
 
