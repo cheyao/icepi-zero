@@ -5,7 +5,7 @@
 | Get your own at: | [**Crowd Supply**](https://www.crowdsupply.com/icy-electronics/icepi-zero) | [**Elecrow**](https://www.elecrow.com/icepi-zero.html) | [**Mouser Electronics**](https://eu.mouser.com/en/ProductDetail/Icy-Electronics/ICEPI-ZERO-QTY-1) |
 | ---------------- | ------------------------ | ------------------ | --------- |
 
-If you are a student/educational institute, send me an email at `cyao _at_ duck.com` and I'll give an educational discount of $65!
+If you are a student/educational institute, send me an email at `cyao _at_ duck.com` and get a discount to buy an Icepi Zero at just $65 (shipping exclusive).
 
 We also got a [Discord server](https://discord.gg/vzrqfhcvWr)! Feel free to ask any questions here.
 
