@@ -58,6 +58,18 @@ Just `cd` into the directories, and type `make`!
 - `make build` builds the bitstream (bitstream is retained on power loss)
 - `make clean` deletes all the temporary files
 
+By default demos are built for the newest board revision. If you have an older
+board, select its revision first (the clock and LED pins differ between
+revisions, so a mismatched build won't work):
+
+- `make v1.0` ... `make v1.4` point the demo's `icepi-zero.lpf` at that revision's constraint file
+- `make latest` resets it to the default symlink (newest revision)
+- a plain `make` uses whatever revision is currently selected; `make v1.0 debug` switches and builds in one go
+
+The demo's `icepi-zero.lpf` is a symlink that `make` generates automatically
+on first build; it no longer ships with the demos and is gitignored, so you
+can delete it at any time to reset.
+
 ## Make your own!
 
 Just copy the `icepi-zero.lpf` and `Makefile` to the root of your directory, call your main module `top`, and you are good to go!

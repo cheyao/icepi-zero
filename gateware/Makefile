@@ -38,8 +38,14 @@ help:
 	echo "- debug: install to chip's temp memory (bitstream lost on power loss)"
 	echo "- build: builds the bitstream"
 	echo "- clean: delete all temparary files"
+	echo "- v1.0 / v1.1 / v1.2 / v1.3 / v1.4: retarget icepi-zero.lpf at that board revision"
+	echo "- latest: restore icepi-zero.lpf to the default (newest revision) symlink"
 
 clean:
 	rm -f $(OUTPUT).bit $(OUTPUT).config $(OUTPUT).json
 
 .PHONY: build clean install
+
+# Board revision targets (v1.0 ... v1.4 / latest). Resolved through this
+# Makefile's real location so the symlinked demos pick them up too.
+-include $(dir $(realpath $(firstword $(MAKEFILE_LIST))))board.mk

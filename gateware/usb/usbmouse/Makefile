@@ -41,3 +41,6 @@ help:
 	echo "- clean: delete all temparary files"
 
 .PHONY: build clean install
+
+# Board revision targets (v1.0 ... v1.4 / latest)
+-include ../../board.mk
