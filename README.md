@@ -72,6 +72,14 @@ It is also supported by icestudio (custom fork: https://github.com/cheyao/icestu
 
 Check out the `gateware` folder for example code and compilation instructions!
 
+The demos build for the newest board revision by default. Pin assignments (clock, LEDs, GPIOs) changed between revisions, so if you have an older board, select yours before building:
+
+- `make v1.0` ... `make v1.4` point the demo's `icepi-zero.lpf` at that revision's constraint file
+- `make latest` resets it to the default symlink (newest revision)
+- a plain `make` uses whatever revision is currently selected (creating the symlink automatically if it doesn't exist yet); `make v1.0 debug` switches and builds in one go
+
+For example, on a v1.0 board you need `make v1.0` in `gateware/blinky` to get the LEDs blinking - with the default (newest revision) constraints the design doesn't even receive a clock, since the oscillator moved from pin M2 to M1 in the v1.3 spin.
+
 If you want to order this board, it uses a 1.2mm/1.6mm PCB with JLC04121H-7628 Stackup. Gerbers are in the `production` folder in the `hardware` directory.
 
 For the PCB, the smallest component size is 0201 for 27 Ohm resistors on the USB-C datalines. But if you want only 0402 components, just delete those 0201 resistors and you will be fine.

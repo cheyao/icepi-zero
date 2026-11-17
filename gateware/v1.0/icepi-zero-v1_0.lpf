@@ -105,8 +105,12 @@ LOCATE COMP "led[4]" SITE "D13";
 IOBUF  PORT "led[4]" IO_TYPE=LVCMOS33 PULLMODE=DOWN DRIVE=4;
 
 # Buttons
-LOCATE COMP "button" SITE "C4";
-IOBUF  PORT "button" IO_TYPE=LVCMOS33 PULLMODE=UP DRIVE=4;
+# v1.0 boards have a single button (SW1) on C4; button[1] matches the
+# v1.1+ naming but is unconnected on this revision.
+LOCATE COMP "button[0]" SITE "C4";
+IOBUF  PORT "button[0]" IO_TYPE=LVCMOS33 PULLMODE=UP DRIVE=4;
+LOCATE COMP "button[1]" SITE "C5";
+IOBUF  PORT "button[1]" IO_TYPE=LVCMOS33 PULLMODE=UP DRIVE=4;
 
 # FDPI
 LOCATE COMP "gpdi_dp[0]" SITE "R13";

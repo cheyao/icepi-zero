@@ -67,3 +67,6 @@ clean:
 	rm -f $(OUTPUT).bit $(OUTPUT).config $(OUTPUT).json
 
 .PHONY: build clean install sim lint help
+
+# Board revision targets (v1.0 ... v1.4 / latest)
+-include ../board.mk
